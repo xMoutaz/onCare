@@ -20,7 +20,7 @@ const sequelize = new Sequelize(
     .then(() => console.log('Database sycned successfully!'))
     .catch(err => console.log('Error',err));
 }
-setTimeout(function() { seqAsync(); }, 150000);
+setTimeout(function() { seqAsync(); }, 200000);
 
 
 // (async () => {
